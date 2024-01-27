@@ -16,14 +16,6 @@ public class Forma{
         return altezza;
     }
 
-    public void setBase(int base) {
-        this.base = base;
-    }
-
-    public void setAltezza(int altezza) {
-        this.altezza = altezza;
-    }
-
     public int calcolaArea(int base, int altezza){
         return base * altezza;
     }
